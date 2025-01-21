@@ -80,6 +80,7 @@ header {
    float: left;
    display: inline-block;
    width: calc(33% - 10px);
+  flex-grow:1;
    margin: 10px 5px;
    background-color: white;
  }
@@ -118,18 +119,7 @@ header {
  .social .comment {
    background-image: url('./images/comment.png');
  }
- main {
-   display: flex;
-   flex-wrap: wrap;
-   gap: 10px; /* Adds spacing between items */
-   justify-content: space-between; /* Aligns items to remove gaps */
- }
  
- .card {
-   flex: 1 1 calc(33% - 10px); /* Allows cards to resize responsively */
-   margin: 5px;
-   background-color: white;
- }
    
   
  
